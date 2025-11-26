@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="MainForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="SearchControl.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="RentControl.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="ReturnControl.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="OrderControl.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+      <Compile Update="AccountControl.cs">
+        <SubType>UserControl</SubType>
+      </Compile>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+﻿BookID|Title|Author|Price|Year|Quantity
+41|Harry Potter and the Goblet of Fire|J.K. Rowling|24.99|2000|10
+44|Harry Potter and the Half-Blood Prince|J.K. Rowling|24.99|2005|10
+62|Hamlet|William Shakespeare|68.99|1601|10
+102|A Storm of Swords|George R.R. Martin|29.99|2000|10
+85|Animal Farm|George Orwell|24.99|1945|10
+1|Harry Potter and the Sorcerers Stone|J.K. Rowling|19.99|1997|10
+21|Harry Potter and the Chamber of Secrets|J.K. Rowling|19.99|1998|10
+23|Harry Potter and the Deathly Hallows|J.K. Rowling|29.99|2007|10
+6|And Then There Were None|Agatha Christie|16.99|1939|10
+2|A Game of Thrones|George R.R. Martin|24.99|1996|10
+3|The Fellowship of the Ring|Agatha Christie|29.99|1954|10
+22|Harry Potter and the Prisoner of Azkaban|J.K. Rowling|19.99|1999|10
+61|Harap-Alb|Ion Creangă|29.99|1877|10
+82|1984|George Orwell|12.99|1949|10
+83|The Adventures of Tom Sawyer|Mark Twain|41.99|1876|10
+84|Pride and Prejudice|Jane Austen|31.99|1813|10
+101|A Clash of Kings|George R.R. Martin|27.99|1998|10
+103|Sacrul și Profanul|Mircea Eliade|19.99|1957|10
+121|Mitul Reîntoarcerii Eterne|Mircea Eliade|18.99|1949|10
+65|Povești|Ion Creangă|14.99|1872|10
+63|Macbeth|William Shakespeare|24.99|1606|10
+87|Emma|Jane Austen|19.99|1815|10
+7|Death on the Nile|Agatha Christie|13.99|1937|10
+104|Tratat de istorie a religiilor|Mircea Eliade|45.99|1949|10
+64|Romeo and Juliet|William Shakespeare|19.99|1597|10
+42|Harry Potter and the Order of the Phoenix|J.K. Rowling|29.99|2003|10
+81|Luceafărul|Mihai Eminesu|15.99|1883|10
+4|Murder on the Orient Express|Agatha Christie|15.99|1934|10
+5|The Murder of Roger Ackroyd|Agatha Christie|14.99|1926|10
+86|Sense and Sensibility|Jane Austen|23.99|1811|10
+99|The Odyssey|Homer|19.99|1915|3
+98|To Kill a Mockingbird|Harper Lee|19.99|1945|1
+97|Romeo and Juliet|William Shakespeare|19.99|1835|5
+96|Amintiri din Copilarie|Ion Creanga|10.00|1850|2

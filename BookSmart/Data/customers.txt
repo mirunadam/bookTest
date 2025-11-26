@@ -1,0 +1,9 @@
+﻿CustomerId|Name|Email|Phone
+1|Emma Watson|emma.watson@example.com|0712345678
+2|John Doe|john.doe@example.com|0723456789
+3|Alice Johnson|alice.johnson@example.com|0734567890
+4|Robert Smith|robert.smith@example.com|0745678901
+5|Alex Pop|alex.pop@example.com|0756789012
+6|Irina Georgescu|irina.georgescu@example.com|0767890123
+7|George Martin|george.martin@example.com|0778901234
+8|Oana Cristina|oana@example.com|07569438761
