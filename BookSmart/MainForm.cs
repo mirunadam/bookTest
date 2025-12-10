@@ -58,4 +58,19 @@ public partial class MainForm : Form
     {
         throw new System.NotImplementedException();
     }
+
+    private void button1_Click_1(object sender, EventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    private void btnSearch_Click(object sender, EventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    private void _Paint(object sender, PaintEventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
 }

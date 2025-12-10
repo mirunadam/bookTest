@@ -17,3 +17,4 @@ D:\An_3\FCLP\BookSmart\BookSmart\obj\Debug\net9.0-windows\BookSmart.csproj.Assem
 D:\An_3\FCLP\BookSmart\BookSmart\obj\Debug\net9.0-windows\BookSmart.MainForm.resources
 D:\An_3\FCLP\BookSmart\BookSmart\obj\Debug\net9.0-windows\BookSmart.csproj.GenerateResource.cache
 D:\An_3\FCLP\BookSmart\BookSmart\obj\Debug\net9.0-windows\BookSmart.csproj.Up2Date
+D:\An_3\FCLP\BookSmart\BookSmart\obj\Debug\net9.0-windows\BookSmart.sourcelink.json

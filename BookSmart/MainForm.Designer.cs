@@ -47,12 +47,10 @@ partial class MainForm
         panelMainCustomer = new System.Windows.Forms.Panel();
         tabPage2 = new System.Windows.Forms.TabPage();
         panelAdmin = new System.Windows.Forms.Panel();
-        txtSearch = new System.Windows.Forms.TextBox();
         panelTop.SuspendLayout();
         panelNav.SuspendLayout();
         tabControl1.SuspendLayout();
         tabPage1.SuspendLayout();
-        panelMainCustomer.SuspendLayout();
         tabPage2.SuspendLayout();
         SuspendLayout();
         // 
@@ -66,7 +64,6 @@ partial class MainForm
         panelTop.Name = "panelTop";
         panelTop.Size = new System.Drawing.Size(982, 70);
         panelTop.TabIndex = 0;
-        panelTop.Paint += panel1_Paint;
         // 
         // lblClock
         // 
@@ -77,7 +74,6 @@ partial class MainForm
         lblClock.Size = new System.Drawing.Size(389, 70);
         lblClock.TabIndex = 1;
         lblClock.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-        lblClock.Click += labelClock_Click;
         // 
         // labelTitle
         // 
@@ -90,7 +86,6 @@ partial class MainForm
         labelTitle.Size = new System.Drawing.Size(200, 70);
         labelTitle.TabIndex = 0;
         labelTitle.Text = "BookSmart";
-        labelTitle.Click += label1_Click;
         // 
         // timer1
         // 
@@ -122,7 +117,7 @@ partial class MainForm
         buttonConfig.TabIndex = 4;
         buttonConfig.Text = "Config";
         buttonConfig.UseVisualStyleBackColor = false;
-        buttonConfig.Click += button4_Click;
+        buttonConfig.Click += buttonAccount_Click;
         // 
         // buttonReturn
         // 
@@ -135,6 +130,7 @@ partial class MainForm
         buttonReturn.TabIndex = 3;
         buttonReturn.Text = "Return";
         buttonReturn.UseVisualStyleBackColor = false;
+        buttonReturn.Click += buttonReturn_Click;
         // 
         // buttonRent
         // 
@@ -147,7 +143,7 @@ partial class MainForm
         buttonRent.TabIndex = 2;
         buttonRent.Text = "Rent";
         buttonRent.UseVisualStyleBackColor = false;
-        buttonRent.Click += button2_Click;
+        buttonRent.Click += buttonRent_Click;
         // 
         // buttonOrder
         // 
@@ -161,7 +157,7 @@ partial class MainForm
         buttonOrder.TabIndex = 1;
         buttonOrder.Text = "Order";
         buttonOrder.UseVisualStyleBackColor = false;
-        buttonOrder.Click += button1_Click_1;
+        buttonOrder.Click += buttonOrders_Click;
         // 
         // buttonSearch
         // 
@@ -200,13 +196,11 @@ partial class MainForm
         // 
         // panelMainCustomer
         // 
-        panelMainCustomer.Controls.Add(txtSearch);
         panelMainCustomer.Dock = System.Windows.Forms.DockStyle.Fill;
         panelMainCustomer.Location = new System.Drawing.Point(3, 3);
         panelMainCustomer.Name = "panelMainCustomer";
         panelMainCustomer.Size = new System.Drawing.Size(764, 441);
         panelMainCustomer.TabIndex = 0;
-        panelMainCustomer.Paint += panelMain_Paint;
         // 
         // tabPage2
         // 
@@ -228,15 +222,6 @@ partial class MainForm
         panelAdmin.Size = new System.Drawing.Size(764, 441);
         panelAdmin.TabIndex = 0;
         // 
-        // txtSearch
-        // 
-        txtSearch.Dock = System.Windows.Forms.DockStyle.Top;
-        txtSearch.Location = new System.Drawing.Point(0, 0);
-        txtSearch.Name = "txtSearch";
-        txtSearch.Size = new System.Drawing.Size(764, 26);
-        txtSearch.TabIndex = 0;
-        txtSearch.TextChanged += txtSearch_TextChanged;
-        // 
         // MainForm
         // 
         AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -252,13 +237,9 @@ partial class MainForm
         panelNav.ResumeLayout(false);
         tabControl1.ResumeLayout(false);
         tabPage1.ResumeLayout(false);
-        panelMainCustomer.ResumeLayout(false);
-        panelMainCustomer.PerformLayout();
         tabPage2.ResumeLayout(false);
         ResumeLayout(false);
     }
-
-    private System.Windows.Forms.TextBox txtSearch;
 
     private System.Windows.Forms.Panel panelAdmin;
 

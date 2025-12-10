@@ -17,4 +17,9 @@ public partial class OrderControl : UserControl
         var rentals = await _rentalService.LoadRentalsAsync();
         dataGridRentals.DataSource = rentals;
     }
+
+    private void label1_Click(object sender, EventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
 }
