@@ -86,6 +86,7 @@ partial class RentControl
         btnRent.TabIndex = 5;
         btnRent.Text = "Rent\r\n";
         btnRent.UseVisualStyleBackColor = true;
+        btnRent.Click += btnRent_Click;
         // 
         // RentControl
         // 

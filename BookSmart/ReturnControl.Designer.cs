@@ -67,7 +67,7 @@ partial class ReturnControl
         btnReturn.Name = "btnReturn";
         btnReturn.Size = new System.Drawing.Size(87, 30);
         btnReturn.TabIndex = 3;
-        btnReturn.Text = "button1";
+        btnReturn.Text = "Return";
         btnReturn.UseVisualStyleBackColor = true;
         // 
         // ReturnControl
@@ -79,6 +79,7 @@ partial class ReturnControl
         Controls.Add(label2);
         Controls.Add(label1);
         Size = new System.Drawing.Size(578, 558);
+        Click += btnReturn_Click;
         ResumeLayout(false);
         PerformLayout();
     }

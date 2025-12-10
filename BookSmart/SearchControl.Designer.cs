@@ -52,14 +52,15 @@ partial class SearchControl
         btnSearch.TabIndex = 1;
         btnSearch.Text = "Search";
         btnSearch.UseVisualStyleBackColor = true;
+        btnSearch.Click += btnSearch_Click;
         // 
         // dataGridBooks
         // 
         dataGridBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-        dataGridBooks.Location = new System.Drawing.Point(11, 61);
+        dataGridBooks.Location = new System.Drawing.Point(0, 61);
         dataGridBooks.Name = "dataGridBooks";
         dataGridBooks.RowHeadersWidth = 51;
-        dataGridBooks.Size = new System.Drawing.Size(660, 523);
+        dataGridBooks.Size = new System.Drawing.Size(684, 523);
         dataGridBooks.TabIndex = 2;
         dataGridBooks.Text = "dataGridView1";
         // 
